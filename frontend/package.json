@@ -1,0 +1,30 @@
+{
+    "name": "geoportal-frontend",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start -p 3000",
+        "test": "jest"
+    },
+    "dependencies": {
+        "axios": "latest",
+        "next": "14.2.3",
+        "ol": "latest",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4.1.8",
+        "@types/jest": "latest",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "autoprefixer": "^10.4.21",
+        "jest": "latest",
+        "postcss": "^8.5.4",
+        "postcss-import": "^16.1.0",
+        "tailwindcss": "^4.1.8",
+        "ts-jest": "latest",
+        "typescript": "^5.8.3"
+    }
+}
